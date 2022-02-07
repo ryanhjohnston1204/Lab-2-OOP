@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
-#include "Invoice.h"
+#include "BankAccount.h"
 using namespace std;
 
 int main() {
-	Invoice e("0001", "woop", 10, 2);
-	e.outputData();
-	
+	BankAccount obj("Ryan", "Johnston", 10000, 0.02);
+	obj.runProgram();
+
 	return 0;
 }
